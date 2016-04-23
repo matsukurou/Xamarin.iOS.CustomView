@@ -16,7 +16,7 @@ namespace Sample_XI_CustomView
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIView customView { get; set; }
+		CustomView customView { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
